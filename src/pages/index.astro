@@ -1,123 +1,6422 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="true"
-		>
-			<path
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				d="M167.19 364.254C83.4786 364.254 0 404.819 0 404.819C0 404.819 141.781 19.4876 142.087 18.7291C146.434 7.33701 153.027 0 162.289 0H332.441C341.703 0 348.574 7.33701 352.643 18.7291C352.92 19.5022 494.716 404.819 494.716 404.819C494.716 404.819 426.67 364.254 327.525 364.254L264.41 169.408C262.047 159.985 255.147 153.581 247.358 153.581C239.569 153.581 232.669 159.985 230.306 169.408L167.19 364.254ZM160.869 530.172C160.877 530.18 160.885 530.187 160.894 530.195L160.867 530.181C160.868 530.178 160.868 530.175 160.869 530.172ZM136.218 411.348C124.476 450.467 132.698 504.458 160.869 530.172C160.997 529.696 161.125 529.242 161.248 528.804C161.502 527.907 161.737 527.073 161.917 526.233C165.446 509.895 178.754 499.52 195.577 500.01C211.969 500.487 220.67 508.765 223.202 527.254C224.141 534.12 224.23 541.131 224.319 548.105C224.328 548.834 224.337 549.563 224.347 550.291C224.563 566.098 228.657 580.707 237.264 593.914C245.413 606.426 256.108 615.943 270.749 622.478C270.593 621.952 270.463 621.508 270.35 621.126C270.045 620.086 269.872 619.499 269.685 618.911C258.909 585.935 266.668 563.266 295.344 543.933C298.254 541.971 301.187 540.041 304.12 538.112C310.591 533.854 317.059 529.599 323.279 525.007C345.88 508.329 360.09 486.327 363.431 457.844C364.805 446.148 363.781 434.657 359.848 423.275C358.176 424.287 356.587 425.295 355.042 426.275C351.744 428.366 348.647 430.33 345.382 431.934C303.466 452.507 259.152 455.053 214.03 448.245C184.802 443.834 156.584 436.019 136.218 411.348Z"
-				fill="url(#paint0_linear_1805_24383)"></path>
-			<defs>
-				<linearGradient
-					id="paint0_linear_1805_24383"
-					x1="247.358"
-					y1="0"
-					x2="247.358"
-					y2="622.479"
-					gradientUnits="userSpaceOnUse"
-				>
-					<stop stop-opacity="0.9"></stop>
-					<stop offset="1" stop-opacity="0.2"></stop>
-				</linearGradient>
-			</defs>
-		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
-</Layout>
 
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
+<div id="shopify-section-template--14123306942521__16311689098a04aede" class="shopify-section"><!-- Slider main container Start -->
+<div class="home12-slider section" id="section-template--14123306942521__16311689098a04aede">
+  <div class="home12-slide-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+        	<div class="home12-slide-content">
+              <div class="slider-top-content">
+
+                <h1>New Arrivals </h1>
+
+
+                <h2>THIS FATHERS DAY</h2>
+
+<img class=" ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-01_1024x1024.png?v=1621759454" alt=""></div>
+              <div class="slider-bottom-content">
+
+				<h2 class="small"><img class="left-icon ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-02_91x19.png?v=1621767217" alt="">Find the
+<img class="right-icon ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-03_91x19.png?v=1621767234" alt=""></h2>
+
+
+                <h2 class="big">PERFECT GIFT</h2>
+
+
+                <h2 class="medium">for your dad</h2>
+
+              </div>
+
+              <a href="">Shop now</a>
+
+            </div>
+        </div><div class="col-lg-6">
+          <div class="slider-12-thumb"><img class=" ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-04_1024x1024.png?v=1621761412" alt=""></div>
+        </div></div>
+    </div>
+  </div>
+</div>
+<!-- Slider main container End --><style data-shopify="">.home12-slide-content .slider-top-content h1 {
+      color: #e45a76;
+  }
+  .home12-slide-content .slider-top-content h2 {
+      color: #000000;
+  }
+
+  .home12-slide-content .slider-bottom-content h2.small {
+      color: #000000;
+  }
+  .home12-slide-content .slider-bottom-content h2.big {
+      color: #000000;
+  }
+  .home12-slide-content .slider-bottom-content h2.medium {
+      color: #e45a76;
+  }
+  .home12-slide-content a {
+      border-color: ;
+      color: ;
+	  background-color: ;
+  }
+  .home12-slide-content a:hover {
+      color: ;
+      border-color: ;
+	  background-color: ;
+  }</style><style data-shopify="">#section-template--14123306942521__16311689098a04aede{background: #f2e1e3 no-repeat scroll center center / cover;padding-top: 100px !important;
+    padding-bottom: 85px !important;}#section-template--14123306942521__16311689098a04aede.section_overlay::before  {
+      background: ;
+      opacity: ;
+      }@media (min-width: 768px) and (max-width: 991px) {
+    #section-template--14123306942521__16311689098a04aede{padding-top: 70px !important;
+      padding-bottom: 50px !important;}
+  }
+  @media (max-width: 767px) {
+    #section-template--14123306942521__16311689098a04aede{padding-top: 65px !important;
+      padding-bottom: 40px !important;}
+  }</style>
+</div>
+
+
+
+<div id="shopify-section-template--14123306942521__16311693340358ab75" class="shopify-section">    <!-- About us Section Start -->
+
+
+    <div class="section section-style-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-12 mx-auto">
+            <div class="about-us2 section-title-two">
+              <div class="inner"><img class="section-title-top-icon ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-05_64x58.png?v=1621937021" alt=""><h2 class="title style2">Father's Day Gifts</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- About us Section End -->
+
+    <!-- Category Banner Section Start -->
+    <div id="section-template--14123306942521__16311693340358ab75" class="section section-padding pt-0  section-normal   style-two ">
+        <div class="container">
+            <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 learts-mb-n40">
+
+
+
+                <div class="col learts-mb-40">
+                    <div id="block_16311693340358ab75-0" class="category-banner4">
+                        <a href="/collections/best-sellers" class="inner">
+                            <div class="image">
+
+<img class=" ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-06_1024x1024.jpg?v=1621936065" alt="">
+
+                          	</div>
+                            <div class="content">
+                                <h3 class="title">
+
+                                  Valentine Cards
+
+                              	</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col learts-mb-40">
+                    <div id="block_16311693340358ab75-1" class="category-banner4">
+                        <a href="/collections/gift-ideas" class="inner">
+                            <div class="image">
+
+<img class=" ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-07_1024x1024.jpg?v=1621937346" alt="">
+
+                          	</div>
+                            <div class="content">
+                                <h3 class="title">
+
+                                  Valentine Decoration
+
+                              	</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col learts-mb-40">
+                    <div id="block_16311693340358ab75-2" class="category-banner4">
+                        <a href="/collections/gift-ideas" class="inner">
+                            <div class="image">
+
+<img class=" ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-08_1024x1024.jpg?v=1621937427" alt="">
+
+                          	</div>
+                            <div class="content">
+                                <h3 class="title">
+
+                                  Funny Gifts
+
+                              	</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col learts-mb-40">
+                    <div id="block_16311693340358ab75-3" class="category-banner4">
+                        <a href="/collections/gift-ideas" class="inner">
+                            <div class="image">
+
+<img class=" ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/files/hp16-img-09_1024x1024.jpg?v=1621937435" alt="">
+
+                          	</div>
+                            <div class="content">
+                                <h3 class="title">
+
+                                  Personalised Gifts
+
+                              	</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Category Banner Section End --><style data-shopify="">#section-template--14123306942521__16311693340358ab75{}
+  @media (min-width: 768px) and (max-width: 991px) {
+    #section-template--14123306942521__16311693340358ab75{}
+  }
+  @media (max-width: 767px) {
+    #section-template--14123306942521__16311693340358ab75{}
+  }</style><style data-shopify="">.about-us2 .inner .title {
+      color: #333333;
+      }
+      .about-us2 .inner .sub-title {
+          color: #72a499;
+      }
+	  .about-us2 .inner .desc p {
+          color: #696969;
+      }.about-us2 .inner .title::before {
+          content: url(//learts-demo.myshopify.com/cdn/shop/files/decor-leaf-yellow.png?v=1621935101);
+      }
+      .about-us2 .inner .title::after {
+          content: url(//learts-demo.myshopify.com/cdn/shop/files/decor-leaf-yellow-2.png?v=1621935108);
+      }
+
+
+
+    #block_16311693340358ab75-0.category-banner4 .inner .image::before {
+        border: 1px solid #ffffff;
+    }
+
+    #block_16311693340358ab75-0.category-banner4 .inner .content .title {
+        color: #333333;
+    }
+    #block_16311693340358ab75-0.category-banner4 .inner .content {
+        background-color: #f4ede7 !important;
+    }
+
+
+
+
+
+
+    #block_16311693340358ab75-1.category-banner4 .inner .image::before {
+        border: 1px solid #ffffff;
+    }
+
+    #block_16311693340358ab75-1.category-banner4 .inner .content .title {
+        color: #333333;
+    }
+    #block_16311693340358ab75-1.category-banner4 .inner .content {
+        background-color: #e8f5f2 !important;
+    }
+
+
+
+
+
+
+    #block_16311693340358ab75-2.category-banner4 .inner .image::before {
+        border: 1px solid #ffffff;
+    }
+
+    #block_16311693340358ab75-2.category-banner4 .inner .content .title {
+        color: #333333;
+    }
+    #block_16311693340358ab75-2.category-banner4 .inner .content {
+        background-color: #e3e4f5 !important;
+    }
+
+
+
+
+
+
+    #block_16311693340358ab75-3.category-banner4 .inner .image::before {
+        border: 1px solid #ffffff;
+    }
+
+    #block_16311693340358ab75-3.category-banner4 .inner .content .title {
+        color: #333333;
+    }
+    #block_16311693340358ab75-3.category-banner4 .inner .content {
+        background-color: #faf5e5 !important;
+    }
+
+
+
 </style>
+
+
+
+
+
+</div>
+
+
+
+
+
+<div id="shopify-section-template--15812670619705__16289384314b269b9b" class="shopify-section">
+<!-- Product Section Start -->
+<div id="section-template--15812670619705__16289384314b269b9b" class="section section-padding pt-0   section-fluid ">
+  <div class="container">
+
+    <!-- Section Title Start --><div class="section-title text-center"><h3 class="sub-title">Shop now</h3><h2 class="title title-icon-both">Shop our best sellers</h2></div><!-- Section Title End -->
+
+    <!-- Products Start -->
+    <div class="products row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
+      <!-- product-item start -->
+
+
+      <div class="col"><div class="product single-product  32891417591865   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/product-title-here-3">
+
+   <style>#Image-18599130366009-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599130366009-0" class="responsive-image__image popup_cart_image lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Fish Cut Out Set" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_180x.jpg?v=1609326944 180w, //learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_360x.jpg?v=1609326944 360w, //learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_540x.jpg?v=1609326944 540w, //learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_540x.jpg?v=1609326944 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_180x.jpg?v=1609326944 180w, //learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_360x.jpg?v=1609326944 360w, //learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_540x.jpg?v=1609326944 540w, //learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_540x.jpg?v=1609326944 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-58-540x720_2048x2048.jpg?v=1609326944" alt="Fish Cut Out Set">
+</noscript>
+
+  <style>#Image-18599130234937-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599130234937-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Fish Cut Out Set" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_180x.jpg?v=1609326944 180w, //learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_360x.jpg?v=1609326944 360w, //learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_540x.jpg?v=1609326944 540w, //learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_540x.jpg?v=1609326944 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_180x.jpg?v=1609326944 180w, //learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_360x.jpg?v=1609326944 360w, //learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_540x.jpg?v=1609326944 540w, //learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_540x.jpg?v=1609326944 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-59-540x720_2048x2048.jpg?v=1609326944" alt="Fish Cut Out Set">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-35%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="product-title-here-3">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    red
+    " style="background-color: red;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    green
+    " style="background-color: green;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    blue
+    " style="background-color: blue;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    yellow
+    " style="background-color: yellow;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gray
+    " style="background-color: gray;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/product-title-here-3">Fish Cut Out Set</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$39.00">$39.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$60.00">$60.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('product-title-here-3')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/product-title-here-3" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="product-title-here-3">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    red
+    " style="background-color: red;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    green
+    " style="background-color: green;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    blue
+    " style="background-color: blue;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    yellow
+    " style="background-color: yellow;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gray
+    " style="background-color: gray;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  36969424420921   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/copy-of-3d-attractive-pot">
+
+   <style>#Image-18629242159161-0 {
+      max-width: 600.0px;
+      max-height: 800px;
+    }
+
+</style><img id="Image-18629242159161-0" class="responsive-image__image popup_cart_image lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,600]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="3D Products" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_180x.jpg?v=1611054938 180w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_360x.jpg?v=1611054938 360w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_540x.jpg?v=1611054938 540w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_600x.jpg?v=1611054938 600w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_180x.jpg?v=1611054938 180w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_360x.jpg?v=1611054938 360w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_540x.jpg?v=1611054938 540w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_600x.jpg?v=1611054938 600w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_2048x2048.jpg?v=1611054938" alt="3D Products">
+</noscript>
+
+  <style>#Image-18629242224697-0 {
+      max-width: 600.0px;
+      max-height: 800px;
+    }
+
+</style><img id="Image-18629242224697-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,600]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="3D Products" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_180x.jpg?v=1611054938 180w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_360x.jpg?v=1611054938 360w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_540x.jpg?v=1611054938 540w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_600x.jpg?v=1611054938 600w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_180x.jpg?v=1611054938 180w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_360x.jpg?v=1611054938 360w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_540x.jpg?v=1611054938 540w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_600x.jpg?v=1611054938 600w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_2048x2048.jpg?v=1611054938" alt="3D Products">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-15%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="copy-of-3d-attractive-pot">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    red
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_600x800_crop_bottom.jpg?v=1611054938"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_icon_crop_center.jpg?v=1611054938" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_icon_crop_center.jpg?v=1611054938"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_600x800_crop_bottom.jpg?v=1611054938"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_icon_crop_center.jpg?v=1611054938" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_icon_crop_center.jpg?v=1611054938"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    blue
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_600x800_crop_bottom.jpg?v=1611054818"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_icon_crop_center.jpg?v=1611054818" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_icon_crop_center.jpg?v=1611054818"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    yellow
+    " style="background-color: yellow;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/copy-of-3d-attractive-pot">3D Products</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$110.00">$110.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$130.00">$130.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('copy-of-3d-attractive-pot')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/copy-of-3d-attractive-pot" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="copy-of-3d-attractive-pot">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    red
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_600x800_crop_bottom.jpg?v=1611054938"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_09fc8d73-4e84-4989-a678-a86cabbe7775_icon_crop_center.jpg?v=1611054938" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_600x800_crop_bottom.jpg?v=1611054938"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_9ca54d0d-5cd3-4ee4-be99-e2ff0ae8327f_icon_crop_center.jpg?v=1611054938" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    blue
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_600x800_crop_bottom.jpg?v=1611054818"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-39-600x800_afcee705-476f-4434-872b-cf1d6ef0c3e9_icon_crop_center.jpg?v=1611054818" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    yellow
+    " style="background-color: yellow;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891417821241   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/boat-neck-t-shirt-top">
+
+   <style>#Image-18599145701433-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599145701433-0" class="responsive-image__image popup_cart_image lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Geometric Modern Clock" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_180x.jpg?v=1609327532 180w, //learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_360x.jpg?v=1609327532 360w, //learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_540x.jpg?v=1609327532 540w, //learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_540x.jpg?v=1609327532 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_180x.jpg?v=1609327532 180w, //learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_360x.jpg?v=1609327532 360w, //learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_540x.jpg?v=1609327532 540w, //learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_540x.jpg?v=1609327532 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_2048x2048.jpg?v=1609327532" alt="Geometric Modern Clock">
+</noscript>
+
+  <style>#Image-18599145734201-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599145734201-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Geometric Modern Clock" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_180x.jpg?v=1609327532 180w, //learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_360x.jpg?v=1609327532 360w, //learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_540x.jpg?v=1609327532 540w, //learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_540x.jpg?v=1609327532 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_180x.jpg?v=1609327532 180w, //learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_360x.jpg?v=1609327532 360w, //learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_540x.jpg?v=1609327532 540w, //learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_540x.jpg?v=1609327532 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_2048x2048.jpg?v=1609327532" alt="Geometric Modern Clock">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-35%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="boat-neck-t-shirt-top">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    red
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_icon_crop_center.jpg?v=1609327532" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_icon_crop_center.jpg?v=1609327532"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_icon_crop_center.jpg?v=1609327532" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_icon_crop_center.jpg?v=1609327532"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    blue
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-29-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-29-540x720_icon_crop_center.jpg?v=1609327532" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-29-540x720_icon_crop_center.jpg?v=1609327532"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    yellow
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-30-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-30-540x720_icon_crop_center.jpg?v=1609327532" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-30-540x720_icon_crop_center.jpg?v=1609327532"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gray
+    " style="background-color: gray;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/boat-neck-t-shirt-top">Geometric Modern Clock</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$39.00">$39.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$60.00">$60.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('boat-neck-t-shirt-top')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/boat-neck-t-shirt-top" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="boat-neck-t-shirt-top">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    red
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-27-540x720_icon_crop_center.jpg?v=1609327532" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-28-540x720_icon_crop_center.jpg?v=1609327532" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    blue
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-29-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-29-540x720_icon_crop_center.jpg?v=1609327532" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    yellow
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-30-540x720_600x800_crop_bottom.jpg?v=1609327532"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-30-540x720_icon_crop_center.jpg?v=1609327532" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gray
+    " style="background-color: gray;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891417165881   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/demo-product-title-3">
+
+   <style>#Image-18599113326649-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599113326649-0" class="responsive-image__image popup_cart_image lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Walnut Cutting Board" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_180x.jpg?v=1609326173 180w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_360x.jpg?v=1609326173 360w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.jpg?v=1609326173 540w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.jpg?v=1609326173 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_180x.jpg?v=1609326173 180w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_360x.jpg?v=1609326173 360w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.jpg?v=1609326173 540w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.jpg?v=1609326173 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_2048x2048.jpg?v=1609326173" alt="Walnut Cutting Board">
+</noscript>
+
+  <style>#Image-18599113293881-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599113293881-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Walnut Cutting Board" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_180x.jpg?v=1609326173 180w, //learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_360x.jpg?v=1609326173 360w, //learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_540x.jpg?v=1609326173 540w, //learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_540x.jpg?v=1609326173 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_180x.jpg?v=1609326173 180w, //learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_360x.jpg?v=1609326173 360w, //learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_540x.jpg?v=1609326173 540w, //learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_540x.jpg?v=1609326173 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-74-540x720_2048x2048.jpg?v=1609326173" alt="Walnut Cutting Board">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="demo-product-title-3">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/demo-product-title-3">Walnut Cutting Board</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$29.00">$29.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><div class="product-cart-action">
+
+<a href="https://affiliate-program.amazon.com/" class="product-button hintT-top" data-hint="Buy from amazon">
+          <span class="cart-text">
+
+<svg xmlns="http://www.w3.org/2000/svg" class="ionicon amazon" viewBox="0 0 512 512"><title>Logo Amazon</title><path d="M48.48 378.73a300.52 300.52 0 00152.89 95.92 262.57 262.57 0 00159.3-17.25 225.52 225.52 0 0066.79-47 6.36 6.36 0 00-2-8.53 11.76 11.76 0 00-8-.05 401.92 401.92 0 01-116.55 39.34 358.13 358.13 0 01-127.29-8.83 446.73 446.73 0 01-119.1-60.49 5 5 0 00-6.06 6.9z"></path><path d="M387.15 388.44a168.11 168.11 0 0148.94-2.23l.67.13a10 10 0 017.37 12.05A204.71 204.71 0 01429 444.47a2.55 2.55 0 001.66 3.18 2.51 2.51 0 002.23-.37A83.31 83.31 0 00464 382.86a12.44 12.44 0 00-10.22-13.22A95.75 95.75 0 00384.91 384a2.55 2.55 0 00-.57 3.55 2.52 2.52 0 002.81.89zM304.24 324.92a164 164 0 01-28.92 25.3A135.16 135.16 0 01208.63 369a99.49 99.49 0 01-57.49-19.85 97.25 97.25 0 01-27.36-100.28 112.35 112.35 0 0165.3-69.06 367.67 367.67 0 01104.7-15.55V127A37.82 37.82 0 00261 94.72a59.9 59.9 0 00-31.17 4.08 48.89 48.89 0 00-27.13 34.67 12 12 0 01-12.58 6.72l-50.9-4.5a11.38 11.38 0 01-8.38-10.16 103.66 103.66 0 0136.61-63.45A143.86 143.86 0 01257.85 32a146.24 146.24 0 0184.27 27.67 86.82 86.82 0 0130.7 70.22V258.8a84.46 84.46 0 008 31.28l15.87 23.23a13 13 0 010 11.23l-46.99 39.71a12.5 12.5 0 01-12.68-.44 244.84 244.84 0 01-32.78-38.89zm-10.6-116.83a257.68 257.68 0 00-44 2.89A63 63 0 00208 242.54a63 63 0 003.07 54 40.6 40.6 0 0047.11 12.19 78.61 78.61 0 0035.46-55.58v-45.06"></path></svg>
+          </span>
+        </a></div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="demo-product-title-3">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+<div class="product-description">
+      I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. eee
+    </div></div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891416543289   sold_out_prod  ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/black-dress-shirt">
+
+   <style>#Image-18599126204473-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599126204473-0" class="responsive-image__image popup_cart_image lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Lucky Wooden Elephant" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_180x.jpg?v=1609326772 180w, //learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_360x.jpg?v=1609326772 360w, //learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_540x.jpg?v=1609326772 540w, //learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_540x.jpg?v=1609326772 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_180x.jpg?v=1609326772 180w, //learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_360x.jpg?v=1609326772 360w, //learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_540x.jpg?v=1609326772 540w, //learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_540x.jpg?v=1609326772 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_2048x2048.jpg?v=1609326772" alt="Lucky Wooden Elephant">
+</noscript>
+
+  <style>#Image-18599126106169-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599126106169-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Lucky Wooden Elephant" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_180x.jpg?v=1609326772 180w, //learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_360x.jpg?v=1609326772 360w, //learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_540x.jpg?v=1609326772 540w, //learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_540x.jpg?v=1609326772 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_180x.jpg?v=1609326772 180w, //learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_360x.jpg?v=1609326772 360w, //learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_540x.jpg?v=1609326772 540w, //learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_540x.jpg?v=1609326772 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_2048x2048.jpg?v=1609326772" alt="Lucky Wooden Elephant">
+</noscript>
+</a>
+<div class="product-badges"><span class="outofstock soldout-title">
+
+  <svg class="sold-out-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 48 48"><path d="M27.707 7.70711C28.0975 7.31658 28.0975 6.68342 27.707 6.29289 27.3165 5.90237 26.6833 5.90237 26.2928 6.29289L24.0001 8.58554 21.7075 6.29289C21.317 5.90237 20.6838 5.90237 20.2933 6.29289 19.9027 6.68342 19.9027 7.31658 20.2933 7.70711L22.5859 9.99976 20.2931 12.2925C19.9026 12.683 19.9026 13.3162 20.2931 13.7067 20.6837 14.0973 21.3168 14.0973 21.7074 13.7067L24.0001 11.414 26.2929 13.7067C26.6834 14.0973 27.3166 14.0973 27.7071 13.7067 28.0976 13.3162 28.0976 12.683 27.7071 12.2925L25.4143 9.99976 27.707 7.70711zM33.9487 32.1838C34.1233 32.7077 33.8402 33.274 33.3162 33.4487L28.8162 34.9487C28.2923 35.1233 27.726 34.8402 27.5513 34.3162 27.3767 33.7923 27.6598 33.226 28.1838 33.0513L32.6838 31.5513C33.2077 31.3767 33.774 31.6598 33.9487 32.1838z"></path><path fill-rule="evenodd" d="M6.68378 26.4487L10 27.5541V36C10 36.4262 10.2701 36.8056 10.6729 36.945L23.6649 41.4422C23.8636 41.5131 24.086 41.5217 24.3015 41.4535L24.3161 41.4487L24.3313 41.4436L37.3271 36.945C37.7299 36.8056 38 36.4262 38 36V27.5541L41.3162 26.4487C41.6264 26.3453 41.8665 26.0968 41.9591 25.7832C42.0517 25.4697 41.9851 25.1306 41.7809 24.8753L37.7809 19.8753C37.6595 19.7236 37.5003 19.6145 37.3249 19.5542L24.3271 15.055C24.1152 14.9817 23.8848 14.9817 23.6729 15.055L10.6751 19.5543C10.4997 19.6145 10.3405 19.7236 10.2191 19.8753L6.21914 24.8753C6.01489 25.1306 5.94836 25.4697 6.04096 25.7832C6.13356 26.0968 6.3736 26.3453 6.68378 26.4487ZM21.3192 30.5735L23 28.1724V39.0956L12 35.2879V28.2208L20.1838 30.9487C20.6036 31.0886 21.0655 30.936 21.3192 30.5735ZM14.0571 20.5L24 23.9418L33.9429 20.5L24 17.0582L14.0571 20.5ZM26.6808 30.5735L25 28.1724V39.0956L36 35.2879V28.2208L27.8162 30.9487C27.3964 31.0886 26.9345 30.936 26.6808 30.5735ZM11.3399 21.6759L8.67677 25.0048L14.1881 26.8419L20.1086 28.8154L22.4212 25.5117L22.2861 25.465L11.3399 21.6759ZM39.3232 25.0048L36.6601 21.6759L25.5789 25.5117L27.8915 28.8154L39.3232 25.0048Z" clip-rule="evenodd"></path></svg>
+  </span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="black-dress-shirt">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    red
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_600x800_crop_bottom.jpg?v=1609326772"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_icon_crop_center.jpg?v=1609326772" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_icon_crop_center.jpg?v=1609326772"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_600x800_crop_bottom.jpg?v=1609326772"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_icon_crop_center.jpg?v=1609326772" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_icon_crop_center.jpg?v=1609326772"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    blue
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-11-540x720_600x800_crop_bottom.jpg?v=1609326772"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-11-540x720_icon_crop_center.jpg?v=1609326772" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-11-540x720_icon_crop_center.jpg?v=1609326772"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/black-dress-shirt">Lucky Wooden Elephant</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$55.00">$55.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$75.00">$75.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('black-dress-shirt')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+        <button class="cart-disable product-button hintT-top" data-hint="Soldout">
+          <span class="cart-text">
+
+<svg class="sold-out-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 48 48"><path d="M27.707 7.70711C28.0975 7.31658 28.0975 6.68342 27.707 6.29289 27.3165 5.90237 26.6833 5.90237 26.2928 6.29289L24.0001 8.58554 21.7075 6.29289C21.317 5.90237 20.6838 5.90237 20.2933 6.29289 19.9027 6.68342 19.9027 7.31658 20.2933 7.70711L22.5859 9.99976 20.2931 12.2925C19.9026 12.683 19.9026 13.3162 20.2931 13.7067 20.6837 14.0973 21.3168 14.0973 21.7074 13.7067L24.0001 11.414 26.2929 13.7067C26.6834 14.0973 27.3166 14.0973 27.7071 13.7067 28.0976 13.3162 28.0976 12.683 27.7071 12.2925L25.4143 9.99976 27.707 7.70711zM33.9487 32.1838C34.1233 32.7077 33.8402 33.274 33.3162 33.4487L28.8162 34.9487C28.2923 35.1233 27.726 34.8402 27.5513 34.3162 27.3767 33.7923 27.6598 33.226 28.1838 33.0513L32.6838 31.5513C33.2077 31.3767 33.774 31.6598 33.9487 32.1838z"></path><path fill-rule="evenodd" d="M6.68378 26.4487L10 27.5541V36C10 36.4262 10.2701 36.8056 10.6729 36.945L23.6649 41.4422C23.8636 41.5131 24.086 41.5217 24.3015 41.4535L24.3161 41.4487L24.3313 41.4436L37.3271 36.945C37.7299 36.8056 38 36.4262 38 36V27.5541L41.3162 26.4487C41.6264 26.3453 41.8665 26.0968 41.9591 25.7832C42.0517 25.4697 41.9851 25.1306 41.7809 24.8753L37.7809 19.8753C37.6595 19.7236 37.5003 19.6145 37.3249 19.5542L24.3271 15.055C24.1152 14.9817 23.8848 14.9817 23.6729 15.055L10.6751 19.5543C10.4997 19.6145 10.3405 19.7236 10.2191 19.8753L6.21914 24.8753C6.01489 25.1306 5.94836 25.4697 6.04096 25.7832C6.13356 26.0968 6.3736 26.3453 6.68378 26.4487ZM21.3192 30.5735L23 28.1724V39.0956L12 35.2879V28.2208L20.1838 30.9487C20.6036 31.0886 21.0655 30.936 21.3192 30.5735ZM14.0571 20.5L24 23.9418L33.9429 20.5L24 17.0582L14.0571 20.5ZM26.6808 30.5735L25 28.1724V39.0956L36 35.2879V28.2208L27.8162 30.9487C27.3964 31.0886 26.9345 30.936 26.6808 30.5735ZM11.3399 21.6759L8.67677 25.0048L14.1881 26.8419L20.1086 28.8154L22.4212 25.5117L22.2861 25.465L11.3399 21.6759ZM39.3232 25.0048L36.6601 21.6759L25.5789 25.5117L27.8915 28.8154L39.3232 25.0048Z" clip-rule="evenodd"></path></svg>
+          </span>
+        </button></div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="black-dress-shirt">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    red
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_600x800_crop_bottom.jpg?v=1609326772"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-09-540x720_icon_crop_center.jpg?v=1609326772" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_600x800_crop_bottom.jpg?v=1609326772"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-10-540x720_icon_crop_center.jpg?v=1609326772" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    blue
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-11-540x720_600x800_crop_bottom.jpg?v=1609326772"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-11-540x720_icon_crop_center.jpg?v=1609326772" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891416510521   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/product-title-here-2">
+
+   <style>#Image-16456070430777-0 {
+      max-width: 600.0px;
+      max-height: 800px;
+    }
+
+</style><img id="Image-16456070430777-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,720,810]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Black Leather Watch" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/w1_180x.jpg?v=1601139188 180w, //learts-demo.myshopify.com/cdn/shop/products/w1_360x.jpg?v=1601139188 360w, //learts-demo.myshopify.com/cdn/shop/products/w1_540x.jpg?v=1601139188 540w, //learts-demo.myshopify.com/cdn/shop/products/w1_720x.jpg?v=1601139188 720w, //learts-demo.myshopify.com/cdn/shop/products/w1_810x.jpg?v=1601139188 810w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/w1_180x.jpg?v=1601139188 180w, //learts-demo.myshopify.com/cdn/shop/products/w1_360x.jpg?v=1601139188 360w, //learts-demo.myshopify.com/cdn/shop/products/w1_540x.jpg?v=1601139188 540w, //learts-demo.myshopify.com/cdn/shop/products/w1_720x.jpg?v=1601139188 720w, //learts-demo.myshopify.com/cdn/shop/products/w1_810x.jpg?v=1601139188 810w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/w1_2048x2048.jpg?v=1601139188" alt="Black Leather Watch">
+</noscript>
+
+  <style>#Image-16456070463545-0 {
+      max-width: 600.0px;
+      max-height: 800px;
+    }
+
+</style><img id="Image-16456070463545-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,720,810]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Black Leather Watch" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/w2_180x.jpg?v=1601139188 180w, //learts-demo.myshopify.com/cdn/shop/products/w2_360x.jpg?v=1601139188 360w, //learts-demo.myshopify.com/cdn/shop/products/w2_540x.jpg?v=1601139188 540w, //learts-demo.myshopify.com/cdn/shop/products/w2_720x.jpg?v=1601139188 720w, //learts-demo.myshopify.com/cdn/shop/products/w2_810x.jpg?v=1601139188 810w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/w2_180x.jpg?v=1601139188 180w, //learts-demo.myshopify.com/cdn/shop/products/w2_360x.jpg?v=1601139188 360w, //learts-demo.myshopify.com/cdn/shop/products/w2_540x.jpg?v=1601139188 540w, //learts-demo.myshopify.com/cdn/shop/products/w2_720x.jpg?v=1601139188 720w, //learts-demo.myshopify.com/cdn/shop/products/w2_810x.jpg?v=1601139188 810w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/w2_2048x2048.jpg?v=1601139188" alt="Black Leather Watch">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="product-title-here-2">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/product-title-here-2">Black Leather Watch</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$50.00">$50.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('product-title-here-2')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="javascript:void(0);" onclick="Shopify.addItem(32891416510521, 1); return false;" class="product-button hintT-top" data-hint="Add To Cart">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="product-title-here-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891416477753   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/demo-product-title-2">
+
+   <style>#Image-18599121158201-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599121158201-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Pizza Plate Tray" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_180x.jpg?v=1609326558 180w, //learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_360x.jpg?v=1609326558 360w, //learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_540x.jpg?v=1609326558 540w, //learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_540x.jpg?v=1609326558 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_180x.jpg?v=1609326558 180w, //learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_360x.jpg?v=1609326558 360w, //learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_540x.jpg?v=1609326558 540w, //learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_540x.jpg?v=1609326558 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-69-540x720_2048x2048.jpg?v=1609326558" alt="Pizza Plate Tray">
+</noscript>
+
+  <style>#Image-18599121190969-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599121190969-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Pizza Plate Tray" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_180x.png?v=1609326558 180w, //learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_360x.png?v=1609326558 360w, //learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_540x.png?v=1609326558 540w, //learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_540x.png?v=1609326558 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_180x.png?v=1609326558 180w, //learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_360x.png?v=1609326558 360w, //learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_540x.png?v=1609326558 540w, //learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_540x.png?v=1609326558 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-66-540x720_2048x2048.png?v=1609326558" alt="Pizza Plate Tray">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="demo-product-title-2">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/demo-product-title-2">Pizza Plate Tray</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$50.00">$50.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('demo-product-title-2')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="javascript:void(0);" onclick="Shopify.addItem(32891416477753, 1); return false;" class="product-button hintT-top" data-hint="Add To Cart">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="demo-product-title-2">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891407925305   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/product-title-here-1">
+
+   <style>#Image-16456069185593-0 {
+      max-width: 600.0px;
+      max-height: 800px;
+    }
+
+</style><img id="Image-16456069185593-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,720,810]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Dark Brown Leather Watch" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/w5_180x.jpg?v=1601139132 180w, //learts-demo.myshopify.com/cdn/shop/products/w5_360x.jpg?v=1601139132 360w, //learts-demo.myshopify.com/cdn/shop/products/w5_540x.jpg?v=1601139132 540w, //learts-demo.myshopify.com/cdn/shop/products/w5_720x.jpg?v=1601139132 720w, //learts-demo.myshopify.com/cdn/shop/products/w5_810x.jpg?v=1601139132 810w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/w5_180x.jpg?v=1601139132 180w, //learts-demo.myshopify.com/cdn/shop/products/w5_360x.jpg?v=1601139132 360w, //learts-demo.myshopify.com/cdn/shop/products/w5_540x.jpg?v=1601139132 540w, //learts-demo.myshopify.com/cdn/shop/products/w5_720x.jpg?v=1601139132 720w, //learts-demo.myshopify.com/cdn/shop/products/w5_810x.jpg?v=1601139132 810w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/w5_2048x2048.jpg?v=1601139132" alt="Dark Brown Leather Watch">
+</noscript>
+
+  <style>#Image-16456069218361-0 {
+      max-width: 600.0px;
+      max-height: 800px;
+    }
+
+</style><img id="Image-16456069218361-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,720,810]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Dark Brown Leather Watch" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/w6_180x.jpg?v=1601139132 180w, //learts-demo.myshopify.com/cdn/shop/products/w6_360x.jpg?v=1601139132 360w, //learts-demo.myshopify.com/cdn/shop/products/w6_540x.jpg?v=1601139132 540w, //learts-demo.myshopify.com/cdn/shop/products/w6_720x.jpg?v=1601139132 720w, //learts-demo.myshopify.com/cdn/shop/products/w6_810x.jpg?v=1601139132 810w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/w6_180x.jpg?v=1601139132 180w, //learts-demo.myshopify.com/cdn/shop/products/w6_360x.jpg?v=1601139132 360w, //learts-demo.myshopify.com/cdn/shop/products/w6_540x.jpg?v=1601139132 540w, //learts-demo.myshopify.com/cdn/shop/products/w6_720x.jpg?v=1601139132 720w, //learts-demo.myshopify.com/cdn/shop/products/w6_810x.jpg?v=1601139132 810w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/w6_2048x2048.jpg?v=1601139132" alt="Dark Brown Leather Watch">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-18%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="product-title-here-1">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    purple
+    " href="//learts-demo.myshopify.com/cdn/shop/products/w6_600x800_crop_bottom.jpg?v=1601139132"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/w6_icon_crop_center.jpg?v=1601139132" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/w6_icon_crop_center.jpg?v=1601139132"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    violet
+    " style="background-color: violet;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    black
+    " style="background-color: black;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    pink
+    " style="background-color: pink;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    orange
+    " style="background-color: orange;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/product-title-here-1">Dark Brown Leather Watch</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$70.00">$70.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$85.00">$85.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('product-title-here-1')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/product-title-here-1" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="product-title-here-1">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    purple
+    " href="//learts-demo.myshopify.com/cdn/shop/products/w6_600x800_crop_bottom.jpg?v=1601139132"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/w6_icon_crop_center.jpg?v=1601139132" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    violet
+    " style="background-color: violet;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    black
+    " style="background-color: black;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    pink
+    " style="background-color: pink;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    orange
+    " style="background-color: orange;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891404484665   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/11-product-with-video">
+
+   <style>#Image-18598908330041-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598908330041-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Adhesive Tape Dispenser" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_180x.jpg?v=1609317343 180w, //learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_360x.jpg?v=1609317343 360w, //learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_540x.jpg?v=1609317343 540w, //learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_540x.jpg?v=1609317343 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_180x.jpg?v=1609317343 180w, //learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_360x.jpg?v=1609317343 360w, //learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_540x.jpg?v=1609317343 540w, //learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_540x.jpg?v=1609317343 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_2048x2048.jpg?v=1609317343" alt="Adhesive Tape Dispenser">
+</noscript>
+
+  <style>#Image-18598908395577-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598908395577-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Adhesive Tape Dispenser" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_180x.jpg?v=1609317343 180w, //learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_360x.jpg?v=1609317343 360w, //learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_540x.jpg?v=1609317343 540w, //learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_540x.jpg?v=1609317343 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_180x.jpg?v=1609317343 180w, //learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_360x.jpg?v=1609317343 360w, //learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_540x.jpg?v=1609317343 540w, //learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_540x.jpg?v=1609317343 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_2048x2048.jpg?v=1609317343" alt="Adhesive Tape Dispenser">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="11-product-with-video">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    navy
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_icon_crop_center.jpg?v=1609317343" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_icon_crop_center.jpg?v=1609317343"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    purple
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_icon_crop_center.jpg?v=1609317343" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_icon_crop_center.jpg?v=1609317343"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    violet
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-26-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-26-540x720_icon_crop_center.jpg?v=1609317343" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-26-540x720_icon_crop_center.jpg?v=1609317343"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    black
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_icon_crop_center.jpg?v=1609317343" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_icon_crop_center.jpg?v=1609317343"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    pink
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_icon_crop_center.jpg?v=1609317343" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_icon_crop_center.jpg?v=1609317343"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/11-product-with-video">Adhesive Tape Dispenser</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$39.00">$39.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('11-product-with-video')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/11-product-with-video" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="11-product-with-video">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    navy
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_icon_crop_center.jpg?v=1609317343" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    purple
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_icon_crop_center.jpg?v=1609317343" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    violet
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-26-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-26-540x720_icon_crop_center.jpg?v=1609317343" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    black
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-24-540x720_icon_crop_center.jpg?v=1609317343" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    pink
+    " href="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_600x800_crop_bottom.jpg?v=1609317343"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/product-25-540x720_icon_crop_center.jpg?v=1609317343" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+<div class="product-description">
+      If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+    </div></div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891404320825  countdownprod   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/high-waist-trousers">
+
+   <style>#Image-18598900760633-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598900760633-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Abstract Folded Pots" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_180x.jpg?v=1609316910 180w, //learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_360x.jpg?v=1609316910 360w, //learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_540x.jpg?v=1609316910 540w, //learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_540x.jpg?v=1609316910 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_180x.jpg?v=1609316910 180w, //learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_360x.jpg?v=1609316910 360w, //learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_540x.jpg?v=1609316910 540w, //learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_540x.jpg?v=1609316910 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-45-540x720_2048x2048.jpg?v=1609316910" alt="Abstract Folded Pots">
+</noscript>
+
+  <style>#Image-18598900793401-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598900793401-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Abstract Folded Pots" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_180x.jpg?v=1609316911 180w, //learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_360x.jpg?v=1609316911 360w, //learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_540x.jpg?v=1609316911 540w, //learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_540x.jpg?v=1609316911 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_180x.jpg?v=1609316911 180w, //learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_360x.jpg?v=1609316911 360w, //learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_540x.jpg?v=1609316911 540w, //learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_540x.jpg?v=1609316911 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-46-540x720_2048x2048.jpg?v=1609316911" alt="Abstract Folded Pots">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-10%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="high-waist-trousers">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gray
+    " style="background-color: gray;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    magenta
+    " style="background-color: magenta;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    maroon
+    " style="background-color: maroon;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/high-waist-trousers">Abstract Folded Pots</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$19.00">$19.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$21.00">$21.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('high-waist-trousers')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/high-waist-trousers" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="high-waist-trousers">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    white
+    " style="border: 1px solid #f1f1f1; background-color: white;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gray
+    " style="background-color: gray;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    magenta
+    " style="background-color: magenta;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    maroon
+    " style="background-color: maroon;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+<div class="product-description">
+      A long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English EEE.
+    </div></div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891403763769   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/9-without-shortcode-product">
+
+   <style>#Image-18599104806969-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599104806969-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Motorized Tricycle" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_180x.png?v=1609325658 180w, //learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_360x.png?v=1609325658 360w, //learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_540x.png?v=1609325658 540w, //learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_540x.png?v=1609325658 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_180x.png?v=1609325658 180w, //learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_360x.png?v=1609325658 360w, //learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_540x.png?v=1609325658 540w, //learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_540x.png?v=1609325658 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-3-540x720_2048x2048.png?v=1609325658" alt="Motorized Tricycle">
+</noscript>
+
+  <style>#Image-18599104839737-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599104839737-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Motorized Tricycle" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_180x.png?v=1609325659 180w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_360x.png?v=1609325659 360w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.png?v=1609325659 540w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.png?v=1609325659 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_180x.png?v=1609325659 180w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_360x.png?v=1609325659 360w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.png?v=1609325659 540w, //learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_540x.png?v=1609325659 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-1-540x720_2048x2048.png?v=1609325659" alt="Motorized Tricycle">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="9-without-shortcode-product">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xxl</li>
+
+
+
+
+
+
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/9-without-shortcode-product">Motorized Tricycle</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$79.00">$79.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('9-without-shortcode-product')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/9-without-shortcode-product" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="9-without-shortcode-product">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xxl</li>
+
+
+
+
+
+
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891403534393  countdownprod   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/8-countdown-product">
+
+   <style>#Image-18599002275897-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599002275897-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Electric Egg Blender" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_180x.png?v=1609321691 180w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_360x.png?v=1609321691 360w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_540x.png?v=1609321691 540w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_540x.png?v=1609321691 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_180x.png?v=1609321691 180w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_360x.png?v=1609321691 360w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_540x.png?v=1609321691 540w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_540x.png?v=1609321691 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_2048x2048.png?v=1609321691" alt="Electric Egg Blender">
+</noscript>
+
+  <style>#Image-18599002308665-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18599002308665-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Electric Egg Blender" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_180x.png?v=1609321691 180w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_360x.png?v=1609321691 360w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_540x.png?v=1609321691 540w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_540x.png?v=1609321691 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_180x.png?v=1609321691 180w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_360x.png?v=1609321691 360w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_540x.png?v=1609321691 540w, //learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_540x.png?v=1609321691 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_2048x2048.png?v=1609321691" alt="Electric Egg Blender">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-35%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="8-countdown-product">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    red
+    " style="background-color: red;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_600x800_crop_bottom.png?v=1609321691"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_icon_crop_center.png?v=1609321691" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_icon_crop_center.png?v=1609321691"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    blue
+    " style="background-color: blue;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    yellow
+    " href="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_600x800_crop_bottom.png?v=1609321691"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_icon_crop_center.png?v=1609321691" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_icon_crop_center.png?v=1609321691"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    black
+    " href="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-3-540x720_600x800_crop_bottom.png?v=1609321691"><img class=" ls-is-cached lazyloaded" data-src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-3-540x720_icon_crop_center.png?v=1609321691" alt="" src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-3-540x720_icon_crop_center.png?v=1609321691"></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>x</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/8-countdown-product">Electric Egg Blender</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$39.00">$39.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$60.00">$60.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('8-countdown-product')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/8-countdown-product" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="8-countdown-product">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>x</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>xl</li>
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    red
+    " style="background-color: red;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    green
+    " href="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_600x800_crop_bottom.png?v=1609321691"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-1-540x720_icon_crop_center.png?v=1609321691" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    blue
+    " style="background-color: blue;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    yellow
+    " href="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_600x800_crop_bottom.png?v=1609321691"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-2-540x720_icon_crop_center.png?v=1609321691" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li class="img_variant">
+
+
+
+      <div class="variant_img">
+        <a class="hintT-top" data-hint="
+    black
+    " href="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-3-540x720_600x800_crop_bottom.png?v=1609321691"><img class="lazyload" data-src="//learts-demo.myshopify.com/cdn/shop/products/kitchen-egg-whisk-3-540x720_icon_crop_center.png?v=1609321691" alt=""></a>
+      </div>
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    gold
+    " style="background-color: gold;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891403501625   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/7-sample-affiliate-product">
+
+   <style>#Image-18598998310969-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598998310969-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Cleaning Dustpan &amp; Brush" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_180x.jpg?v=1609321504 180w, //learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_360x.jpg?v=1609321504 360w, //learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_540x.jpg?v=1609321504 540w, //learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_540x.jpg?v=1609321504 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_180x.jpg?v=1609321504 180w, //learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_360x.jpg?v=1609321504 360w, //learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_540x.jpg?v=1609321504 540w, //learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_540x.jpg?v=1609321504 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-18-540x720_2048x2048.jpg?v=1609321504" alt="Cleaning Dustpan &amp; Brush">
+</noscript>
+
+  <style>#Image-18598998179897-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598998179897-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Cleaning Dustpan &amp; Brush" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_180x.jpg?v=1609321504 180w, //learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_360x.jpg?v=1609321504 360w, //learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_540x.jpg?v=1609321504 540w, //learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_540x.jpg?v=1609321504 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_180x.jpg?v=1609321504 180w, //learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_360x.jpg?v=1609321504 360w, //learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_540x.jpg?v=1609321504 540w, //learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_540x.jpg?v=1609321504 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-19-540x720_2048x2048.jpg?v=1609321504" alt="Cleaning Dustpan &amp; Brush">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="7-sample-affiliate-product">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/7-sample-affiliate-product">Cleaning Dustpan &amp; Brush</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$29.00">$29.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('7-sample-affiliate-product')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="javascript:void(0);" onclick="Shopify.addItem(32891403501625, 1); return false;" class="product-button hintT-top" data-hint="Add To Cart">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="7-sample-affiliate-product">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891403206713   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/6-variable-with-soldout-product">
+
+   <style>#Image-18598996475961-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598996475961-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Cape Cottage Playhouse" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_180x.png?v=1609321361 180w, //learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_360x.png?v=1609321361 360w, //learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_540x.png?v=1609321361 540w, //learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_540x.png?v=1609321361 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_180x.png?v=1609321361 180w, //learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_360x.png?v=1609321361 360w, //learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_540x.png?v=1609321361 540w, //learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_540x.png?v=1609321361 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/house-1-540x720_2048x2048.png?v=1609321361" alt="Cape Cottage Playhouse">
+</noscript>
+
+  <style>#Image-18598996508729-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598996508729-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Cape Cottage Playhouse" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_180x.png?v=1609321362 180w, //learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_360x.png?v=1609321362 360w, //learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_540x.png?v=1609321362 540w, //learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_540x.png?v=1609321362 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_180x.png?v=1609321362 180w, //learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_360x.png?v=1609321362 360w, //learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_540x.png?v=1609321362 540w, //learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_540x.png?v=1609321362 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/house-2-540x720_2048x2048.png?v=1609321362" alt="Cape Cottage Playhouse">
+</noscript>
+</a>
+<div class="product-badges"><span class="onsale">Sale</span><span class="onsale percent-count">-27%</span></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="6-variable-with-soldout-product">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+              <div class="product-options">
+                <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    red
+    " style="background-color: red;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    green
+    " style="background-color: green;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    blue
+    " style="background-color: blue;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+                <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+              </div>
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/6-variable-with-soldout-product">Cape Cottage Playhouse</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price new"><span class="money" data-currency-usd="$55.00">$55.00</span></span>
+
+      <span class="main-price discounted old"><span class="money" data-currency-usd="$75.00">$75.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('6-variable-with-soldout-product')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="/products/6-variable-with-soldout-product" class="product-button hintT-top" data-hint="Select Options">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="6-variable-with-soldout-product">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+    <div class="single-product__variations mobile__view d-lg-none">
+      <ul class="sizes size-container ">
+
+
+
+
+
+
+
+
+
+
+
+  <li>s</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>m</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li>l</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+      <div class="color-container">
+  <ul class="grid-color-swatch colors">
+
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    red
+    " style="background-color: red;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    green
+    " style="background-color: green;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+    <li>
+
+      <label class="hintT-top" data-hint="
+    blue
+    " style="background-color: blue;"></label>
+
+
+
+    </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+</div>
+
+
+
+    </div>
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+      <div class="col"><div class="product single-product  32891403173945   ">
+  <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+<a class="image image-wrap" href="/products/5-simple-product">
+
+   <style>#Image-18598990512185-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598990512185-0" class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Brush &amp; Dustpan Set" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_180x.jpg?v=1609321145 180w, //learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_360x.jpg?v=1609321145 360w, //learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_540x.jpg?v=1609321145 540w, //learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_540x.jpg?v=1609321145 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_180x.jpg?v=1609321145 180w, //learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_360x.jpg?v=1609321145 360w, //learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_540x.jpg?v=1609321145 540w, //learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_540x.jpg?v=1609321145 540w">
+<noscript>
+  <img class="popup_cart_image" src="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_2048x2048.jpg?v=1609321145" alt="Brush &amp; Dustpan Set">
+</noscript>
+
+  <style>#Image-18598990577721-0 {
+      max-width: 540.0px;
+      max-height: 720px;
+    }
+
+</style><img id="Image-18598990577721-0" class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/51/assets/ajax_loader.svg?v=109404092073067859101675935637
+" data-widths="[180,360,540,540]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="Brush &amp; Dustpan Set" data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_180x.jpg?v=1609321145 180w, //learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_360x.jpg?v=1609321145 360w, //learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_540x.jpg?v=1609321145 540w, //learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_540x.jpg?v=1609321145 540w" sizes="329px" srcset="//learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_180x.jpg?v=1609321145 180w, //learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_360x.jpg?v=1609321145 360w, //learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_540x.jpg?v=1609321145 540w, //learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_540x.jpg?v=1609321145 540w">
+<noscript>
+  <img class="popup_cart_image secondary__img" src="//learts-demo.myshopify.com/cdn/shop/products/product-36-540x720_2048x2048.jpg?v=1609321145" alt="Brush &amp; Dustpan Set">
+</noscript>
+</a>
+<div class="product-badges"></div><a class="add-to-wishlist hintT-left action-wishlist tile-actions--btn flex wishlist-btn wishlist" data-hint="Add to wishlist" href="javascript: void(0)" button-wishlist="" data-product-handle="5-simple-product">
+  <span class="add-wishlist" data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
+  <span class="loading-wishlist"><!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 26.349 26.35" xml:space="preserve">
+<g>
+	<g>
+		<circle cx="13.792" cy="3.082" r="3.082"></circle>
+		<circle cx="13.792" cy="24.501" r="1.849"></circle>
+		<circle cx="6.219" cy="6.218" r="2.774"></circle>
+		<circle cx="21.365" cy="21.363" r="1.541"></circle>
+		<circle cx="3.082" cy="13.792" r="2.465"></circle>
+		<circle cx="24.501" cy="13.791" r="1.232"></circle>
+		<path d="M4.694,19.84c-0.843,0.843-0.843,2.207,0,3.05c0.842,0.843,2.208,0.843,3.05,0c0.843-0.843,0.843-2.207,0-3.05
+			C6.902,18.996,5.537,18.988,4.694,19.84z"></path>
+		<circle cx="21.364" cy="6.218" r="0.924"></circle>
+	</g>
+</g>
+</svg></span>
+  <span class="remove-wishlist" data-tippy-content="Remove From Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+	<path d="M 42.901 85.549 c 1.059 1.383 3.138 1.383 4.197 0 c 7.061 -9.223 28.773 -25.692 33.475 -30.82 c 12.568 -12.568 12.568 -32.946 0 -45.514 h 0 c -8.961 -8.961 -26.859 -7.239 -34.145 3.1 c -0.699 0.992 -2.158 0.992 -2.857 0 C 36.286 1.975 18.387 0.253 9.426 9.214 h 0 c -12.568 12.568 -12.568 32.946 0 45.514 C 14.128 59.857 35.84 76.325 42.901 85.549 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round"></path>
+</g>
+</svg></span>
+</a>
+
+
+
+
+
+
+
+</div>
+  <div class="product-info single-product__content text-center"><h6 class="title popup_cart_title"><a href="/products/5-simple-product">Brush &amp; Dustpan Set</a></h6><span class="price">
+      <span id="product_current_price" class="discounted-price "><span class="money" data-currency-usd="$50.00">$50.00</span></span>
+
+    </span>
+
+    <div class="product-buttons"><a data-toggle="modal" class="product-button hintT-top" data-hint="Quick View" data-target="#quickViewModal" href="javascript:void(0);" onclick="quiqview('5-simple-product')" data-tippy-content="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.2" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                              </svg></a><div class="product-cart-action">
+
+
+        <a href="javascript:void(0);" onclick="Shopify.addItem(32891403173945, 1); return false;" class="product-button hintT-top" data-hint="Add To Cart">
+          <span><span class="cart-title">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></span></span>
+        </a>
+
+</div><span class="compare">
+        <a href="#" data-hint="Compare" data-tippy-content="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder" data-tippy-placement="left" class="compare product-button hintT-top" data-pid="5-simple-product">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"></path>
+          </svg>
+        </a>
+      </span></div>
+
+
+</div>
+
+  <!--=======  End of single product content  =======-->
+</div>
+</div>
+
+</div>
+    <!-- Products End -->
+
+  </div>
+</div>
+<!-- Product Section End -->
+
+<style data-shopify="">#section-template--15812670619705__16289384314b269b9b .section-title .title {
+      color: #333333;
+  }
+  #section-template--15812670619705__16289384314b269b9b .section-title .sub-title {
+      color: #72a499;
+  }#section-template--15812670619705__16289384314b269b9b .section-title .title.title-icon-both::before {
+      content: url(//learts-demo.myshopify.com/cdn/shop/files/title-decor-left.png?v=1613704624);
+  }
+  #section-template--15812670619705__16289384314b269b9b .section-title .title.title-icon-both::after {
+      content: url(//learts-demo.myshopify.com/cdn/shop/files/title-decor-right.png?v=1613704624);
+  }</style><style data-shopify="">#section-template--15812670619705__16289384314b269b9b{}
+  @media (min-width: 768px) and (max-width: 991px) {
+    #section-template--15812670619705__16289384314b269b9b{}
+  }
+  @media (max-width: 767px) {
+    #section-template--15812670619705__16289384314b269b9b{}
+  }</style>
+</div>
+
+
+
+
+</Layout>
