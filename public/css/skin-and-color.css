@@ -1,7 +1,7 @@
 :root{
     --bg-color: #fff;
-    --bg-bar: #36056c;
-    --heading: #36056c;
+    --bg-bar: #738678 ;
+    --heading: #787386;
 }
 
 
@@ -351,7 +351,7 @@ h6 {
 .parallax-banner-2 .content .sub-title,
 .instagram-banner1 .content .title a:hover,
 .countdown2.primary2 .count span.amount {
-    color: #72a499
+    color: var(--bg-bar)
 }
 
 .widget-subscibe .btn:hover {
@@ -429,7 +429,7 @@ ul.sizes.size-container li {
 
 .btn-dark {
     border-color: #333;
-    background-color: #333;
+    background-color: var(--heading);
     color: #fff
 }
 
